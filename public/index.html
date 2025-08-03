@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Revolt Voice Bot</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #f4f4f4;
+      font-family: 'Comic Sans MS', cursive;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-top: 40px;
+    }
+    #listenText {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .mic {
+      font-size: 6rem;
+      cursor: pointer;
+    }
+    .bubble {
+      position: absolute;
+      background-color: #f1f1f1;
+      border-radius: 50%;
+      padding: 20px;
+      max-width: 200px;
+      word-wrap: break-word;
+      border: 2px solid #888;
+    }
+    #colorPicker {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="listenText">Listen</h1>
+  <div id="mic" class="mic">🎙️</div>
+
+  <input type="color" id="colorPicker" />
+  <label for="colorPicker">Change Background</label>
+
+  <script src="app.js"></script>
+</body>
+</html>
